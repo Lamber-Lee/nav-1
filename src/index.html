@@ -6,7 +6,7 @@
     <meta name="viewport"
     content="width=device-width,initial-scale=1,minimum-scale=1,
     maximum-scale=1,user-scalable=no,viewport-fit=cover">
-    <title>前航 - 前端导航网站</title>
+    <title>Ls浏览器</title>
     <style type="text/css">
         .icon {
             width: 1em;
@@ -15,19 +15,25 @@
             fill: currentColor;
             overflow: hidden;
         }
-    </style>
+        
+        
 
+    </style>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="globalHeader">
+        <div class="ls-logo"></div>
         <form class="searchForm" method="get"
-        action="https://www.baidu.com/s" ></form>
+        action="https://www.baidu.com/s" >
+        <input name="wd" type="text">
+
+        <button type="submit">搜索</button>
+    </form>
         <!-- target="_blank"搜索会跳转到新页面 --> 
        
 
-        <input name="wd" type="text">
-        <button type="submit">搜索</button>
     </form>
     </header>
 
