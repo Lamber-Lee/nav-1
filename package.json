@@ -1,0 +1,10 @@
+{"scripts": {
+  "build":"parcel build src/index.html --no-optimize --public-url ./"
+},
+  "name": "nav-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Lamber-Lee/nav-1.git",
+  "author": "Lamber <420862234@qq.com>",
+  "license": "MIT"
+}
