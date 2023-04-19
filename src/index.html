@@ -1,60 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-    content="width=device-width,initial-scale=1,minimum-scale=1,
-    maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Ls浏览器</title>
     <style type="text/css">
-        .icon {
-            width: 1em;
-            height: 1em;
-            vertical-align: -0.15em;
-            fill: currentColor;
-            overflow: hidden;
-        }
-        
-        
-
+      .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
     </style>
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="globalHeader">
-        <div class="ls-logo"></div>
-        <form class="searchForm" method="get"
-        action="https://www.baidu.com/s" >
-        <input name="wd" type="text">
+      <div class="ls-logo"></div>
+      <form class="searchForm" method="get" action="https://www.baidu.com/s">
+        <input name="wd" type="text" />
 
         <button type="submit">搜索</button>
-    </form>
-        <!-- target="_blank"搜索会跳转到新页面 --> 
-       
-
-    </form>
+        <!-- target="_blank"搜索会跳转到新页面 -->
+      </form>
     </header>
 
     <main class="globalMain">
-    <ul class="siteList">
+      <ul class="siteList">
         <li class="last">
-            <div class="addButton">
-                <div class="icon-wrapper">
-                    <img src="add.svg" alt="">
-                </div>
-                <div class="text">新增网站</div>
-            
-        </div>
+          <div class="addButton">
+            <div class="icon-wrapper">
+              <img src="add.svg" alt="" />
+            </div>
+
+            <div class="text">新增网站</div>
+          </div>
         </li>
-    </ul>
+      </ul>
     </main>
 
     <script src="//at.alicdn.com/t/font_3021156_s3scn1yg9pf.js"></script>
 
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="main.js"></script>
-    
-</body>
+  </body>
 </html>
